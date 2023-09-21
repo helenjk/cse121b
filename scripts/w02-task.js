@@ -8,8 +8,6 @@ let fullName = "Helen Junginger Klinger";
 let currentYear = new Date().getFullYear();
 let profilePicture = "images/HelenKlinger_photo.png";
 
-console.log(currentYear);
-
 /* Step 3 - Element Variables */
 
 const nameElement = document.getElementById("name");
