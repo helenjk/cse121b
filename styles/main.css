@@ -153,5 +153,7 @@ footer {
         max-width: fit-content;
 
     }
-
+    #quotient{
+        margin-bottom: 50px;
+   }
 }
