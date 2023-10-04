@@ -23,7 +23,7 @@ myProfile.placesLived.push(
 );
 
 myProfile.placesLived.push(
-    {place: 'Campinas SP, Brazil',
+    {place: 'Campinas, SP, Brazil',
      length: '26 years'}
 )
 
