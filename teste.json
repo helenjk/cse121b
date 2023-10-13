@@ -1,0 +1,44 @@
+[
+  {
+    "templeName": "Payson Utah",
+    "location": "Payson, Utah, United States",
+    "dedicated": "2015, June, 7",
+    "area": 96630,
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+  },
+  {
+    "templeName": "Yigo Guam",
+    "location": "Yigo, Guam",
+    "dedicated": "2020, May, 2",
+    "area": 6861,
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+  },
+  {
+    "templeName": "Provo City Center",
+    "location": "Provo, Utah, United States",
+    "dedicated": "2016, March, 20",
+    "area": 85084,
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/400x250/provo-city-center-temple-1572517-wallpaper.jpg"
+  },
+  {
+    "templeName": "Provo Utah",
+    "location": "Provo, Utah, United States",
+    "dedicated": "1972, February, 9",
+    "area": 130825,
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-utah/400x250/provo-temple-lds-890642-wallpaper.jpg"
+  },
+  {
+    "templeName": "Winter Quarters Nebraska",
+    "location": "Florence, Nebraska, United States",
+    "dedicated": "2001, April, 22",
+    "area": 16000,
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/winter-quarters-nebraska/400x250/winter-quarters-nebraska-temple-detail-772766.jpg"
+  },
+  {
+    "templeName": "Salt Lake",
+    "location": "Salt Lake City, Utah, United States",
+    "dedicated": "1893, April, 6",
+    "area": 403000,
+    "imageUrl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/400x250/slctemple5.jpg"
+  },
+]
