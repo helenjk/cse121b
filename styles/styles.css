@@ -1,0 +1,101 @@
+/* */
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --heading-font: "Julee";
+    --paragraph-font: Helvetica, sans-serif;
+}
+
+#home_content, #contactme_content, #resources_content{
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    color: black;
+    opacity: 0.8;
+  }
+
+
+header{
+    margin-top: 0;
+    margin-left: 250px;
+}
+.logo{
+    width: 130px;
+    padding-left: 50px;
+}
+
+.logo:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.title{
+    font-family: var(--heading-font);
+    padding-left: 200px;
+    font-size: 3em;
+}
+
+/* ** Phrasal Verbs Page ** */
+
+.main_phrasalverbs{
+  font-family: var(--paragraph-font);
+}
+
+p{
+  font-size: 1.3em;
+}
+
+#phrasalVerbsTitle{
+  color:#c32f27;
+  font-family: var(--heading-font);
+  font-size: 1.7em;
+  text-align: center;
+  padding-top: 20px; 
+}
+
+#labyrinth-img,  #sortByPreposition{
+  display: block;
+  width: 600px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: var(--paragraph-font);
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#phrasalverbs_block{
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  grid-template-rows: 2fr 2fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  grid-gap: 20px;
+}
+
+  
+@media screen and (max-width: 900px) {
+      .home_content, .resources_content, .tips_content{
+          display: block;
+          height: auto;
+      }
+      .sidenav, .sidewho, .main_part, footer {
+          flex-direction: column;
+      }
+      .sidenav a, .sidewho p {
+          display: block;
+          padding: 15px;
+      }
+      
+      footer {
+          margin-top: 25px;
+      }
+  }
+  
+  
+  
