@@ -1,6 +1,6 @@
 [
   {
-    "phrasalVerb":"Blow Up",
+    "phrasalVerb":"Blow up",
     "meaningEng": "Destroy something by an explosion",
     "meaningPor": "Explodir",
     "exampleSentence": "Rebels attempted to blow up the bridge."
@@ -18,7 +18,7 @@
     "exampleSentence": "The parents are doing their best to calm down the frightened children."
   },
   {
-    "phrasalVerb": "Give Up",
+    "phrasalVerb": "Give up",
     "meaningEng": "Quit a habit; stop trying to do something",
     "meaningPor": "Desistir, abandonar",
     "exampleSentence": "The task is so difficult that we are about to give up and try other option."
@@ -42,16 +42,16 @@
     "exampleSentence": "My daughter used to go out with my colleague's son."
   },
   {
-    "phrasalVerb": "",
-    "meaningEng": "",
-    "meaningPor": "",
-    "exampleSentence": ""
+    "phrasalVerb": "Drop out",
+    "meaningEng": "Quit a class, school, etc",
+    "meaningPor": "Sair de uma classe, escola, etc",
+    "exampleSentence": "I dropped out of Science because it was too difficult."
   },
   {
-    "phrasalVerb": "",
-    "meaningEng": "",
-    "meaningPor": "",
-    "exampleSentence": ""
+    "phrasalVerb": "Count on",
+    "meaningEng": "Rely on someone or something",
+    "meaningPor": "Contar com alguém ou algo",
+    "exampleSentence": "I am counting on you to prepare the dinner while I am taking care of the baby."
   },
   {
     "phrasalVerb": "Grow up",
@@ -106,5 +106,17 @@
     "meaningEng": "Die",
     "meaningPor": "Morrer",
     "exampleSentence": "My oncle passed away last night after a long illness."
+  },
+  {
+    "phrasalVerb": "Come across",
+    "meaningEng": "Find unexpectedly",
+    "meaningPor": "Encontrar algo ou alguém; deparar-se com",
+    "exampleSentence": "The detective came across an interesting case to solve."
+  },
+  {
+    "phrasalVerb": "Figure out",
+    "meaningEng": "Understand, find the answer",
+    "meaningPor": "Entender, encontrar a resposta",
+    "exampleSentence": "I need to figure out how to fit the piano and the bookshelf in this small room."
   }
 ]

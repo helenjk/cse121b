@@ -8,7 +8,7 @@ const phrasalVerbsElement = document.querySelector("#phrasalverbs_block");
 let phrasalVerbsList = [];
 let filter = '';
 
-/* async displayPhrasalVerbs Function */
+// displayPhrasalVerbs Function: receives a list and display its elements on the screen
 
 const displayPhrasalVerbs = (phrasalVerbs) => {
 
@@ -48,6 +48,8 @@ const getPhrasalVerbs = async() => {
     if (response.ok) {
         // Convert the response to a json
         phrasalVerbsList = await response.json();
+        // Order the list
+        phrasalVerbsList = phrasalVerbsList.sort(compare);
         // Show the list's content
         displayPhrasalVerbs(phrasalVerbsList);
     } else {
@@ -62,8 +64,8 @@ function reset(){
 
 // Functions to sort the list of verbs 
 
-function checkPrepositionIn(verb){
-    return verb.phrasalVerb.indexOf('in') >= 0;
+function checkPrepositionUp(verb){
+    return verb.phrasalVerb.indexOf('up') >= 0;
 };
 
 function checkPrepositionOn(verb){
@@ -76,6 +78,10 @@ function checkPrepositionOff(verb){
 
 function checkPrepositionOut(verb){
     return verb.phrasalVerb.indexOf('out') >= 0;
+};
+
+function checkOthers(verb){
+    return (verb.phrasalVerb.indexOf('out') < 0) && (verb.phrasalVerb.indexOf('up') < 0) && (verb.phrasalVerb.indexOf('off') < 0) && (verb.phrasalVerb.indexOf('on') < 0);
 };
 
 // Function to order the list
@@ -95,15 +101,13 @@ function sortByPreposition(phrasalverbs){
 
     // Get selected option of filter choosen by the user
     filter = document.getElementById("sortByPreposition");
-    //console.log('Filter: ' + filter);
-
+    
     // List after applying the filter
     let resultVerbs = [];
     
     switch(filter.value){
-            case "in":
-                //resultVerbs = phrasalverbs.filter(checkPreposition => verb.phrasalVerb.indexOf('in') >= 0);
-                resultVerbs = phrasalverbs.filter(checkPrepositionIn);
+            case "up":
+                resultVerbs = phrasalverbs.filter(checkPrepositionUp);
                 break;
             case "on":
                 resultVerbs = phrasalverbs.filter(checkPrepositionOn);
@@ -114,14 +118,47 @@ function sortByPreposition(phrasalverbs){
             case "out":
                 resultVerbs = phrasalverbs.filter(checkPrepositionOut);
                 break;
+            case "others":
+                resultVerbs = phrasalverbs.filter(checkOthers);
+                break;
             default:
                 resultVerbs = phrasalverbs;
     };
 
     // Order the resulting list
-    resultVerbsOrdered = resultVerbs.sort(compare);
+    let resultVerbsOrdered = resultVerbs.sort(compare);
     
-    // Show the resulting ordered list of temples according to the selected filter
+    // Show the resulting ordered list of verbs
+    displayPhrasalVerbs(resultVerbsOrdered);
+};
+
+function findVerb() {
+    // Cleans the screen
+    reset();
+
+    // List after applying the filter
+    let resultVerbs = [];
+
+    // Get the typed word
+    let inputVerb = document.getElementById('verbInput');
+    inputVerb = inputVerb.value.toUpperCase();
+    
+    let count = 0;
+
+    phrasalVerbsList.forEach((currentPhrasalVerb) => {
+        verbUpperCase = currentPhrasalVerb.phrasalVerb.toUpperCase();
+        let position = verbUpperCase.indexOf(inputVerb);
+        if (position >= 0){
+            resultVerbs[count] = currentPhrasalVerb;
+            count++;
+        }
+    }
+    );
+    
+    // Order the resulting list
+    let resultVerbsOrdered = resultVerbs.sort(compare);
+
+    // Show the resulting list
     displayPhrasalVerbs(resultVerbsOrdered);
 };
 
