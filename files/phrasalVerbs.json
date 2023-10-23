@@ -6,6 +6,36 @@
     "exampleSentence": "Rebels attempted to blow up the bridge."
   },
   {
+    "phrasalVerb":"Warm up",
+    "meaningEng": "Increase the temperature; prepare the body for exercise",
+    "meaningPor": "Aquecer; aquecer o corpo para praticar exercícios",
+    "exampleSentence": "You can warm your feet up in front of the fireplace. I'm warming up for running."
+  },
+  {
+    "phrasalVerb":"Send back",
+    "meaningEng": "Return (usually by mail)",
+    "meaningPor": "Devolver, mandar de volta",
+    "exampleSentence": "If you're not completely satisfied with the goods, send them back for a full refund."
+  },
+  {
+    "phrasalVerb":"Think over",
+    "meaningEng": "Consider something carefully",
+    "meaningPor": "Ponderar ou refletir sobre algo",
+    "exampleSentence": "I'll have to think this job offer over before I make my final decision."
+  },
+  {
+    "phrasalVerb":"Throw away",
+    "meaningEng": "Dispose of",
+    "meaningPor": "Descartar algo, jogar fora",
+    "exampleSentence": "We threw our old furniture away when we won the lottery."
+  },
+  {
+    "phrasalVerb":"Turn off",
+    "meaningEng": "Stop the energy flow, switch on",
+    "meaningPor": "Desligar, apagar",
+    "exampleSentence": "Your mother wants you to turn the TV off and come for dinner."
+  },
+  {
     "phrasalVerb": "Call Back",
     "meaningEng": "Return a phone call",
     "meaningPor": "Retornar uma chamada telefônica",
@@ -97,7 +127,7 @@
   },
   {
     "phrasalVerb": "Turn on",
-    "meaningEng": "Start the energy; ",
+    "meaningEng": "Start the energy",
     "meaningPor": "Acender, ligar",
     "exampleSentence": "it is to dark here; let's turn the lights on."
   },
@@ -118,5 +148,53 @@
     "meaningEng": "Understand, find the answer",
     "meaningPor": "Entender, encontrar a resposta",
     "exampleSentence": "I need to figure out how to fit the piano and the bookshelf in this small room."
+  },
+  {
+    "phrasalVerb": "Get up",
+    "meaningEng": "Get out of bed",
+    "meaningPor": "Levantar da cama",
+    "exampleSentence": "I got up early today to study for my exam."
+  },
+  {
+    "phrasalVerb": "Look forward to",
+    "meaningEng": "Be excited about the future",
+    "meaningPor": "Aguardar com ansiedade e expectativa",
+    "exampleSentence": "I'm looking forward to my next vacation because I'm going to accomplish one of my dreams!"
+  },
+  {
+    "phrasalVerb": "Make up",
+    "meaningEng": "Forgive each other",
+    "meaningPor": "Reconciliar-se",
+    "exampleSentence": "We were angry last night, but we made up at breakfast."
+  },
+  {
+    "phrasalVerb": "Make up",
+    "meaningEng": "Apply cosmetics to",
+    "meaningPor": "Maquiar",
+    "exampleSentence": "My sisters made me up for my graduation party."
+  },
+  {
+    "phrasalVerb": "Work out",
+    "meaningEng": "Exercise",
+    "meaningPor": "Fazer exercícios",
+    "exampleSentence": "I work out using heavy weights every week."
+  },
+  {
+    "phrasalVerb": "Put out",
+    "meaningEng": "Extinguish",
+    "meaningPor": "Apagar, acabar com",
+    "exampleSentence": "The firefighters were able to quickly put out the fire."
+  },
+  {
+    "phrasalVerb": "Tear up",
+    "meaningEng": "Rip into pieces",
+    "meaningPor": "Rasgar, destruir",
+    "exampleSentence": "I tore up my ex-boyfriend's letters and gave them back to him."
+  },
+  {
+    "phrasalVerb": "Try out",
+    "meaningEng": "Test",
+    "meaningPor": "Testar, experimentar",
+    "exampleSentence": "I'm going to try this new brand of detergent out."
   }
 ]

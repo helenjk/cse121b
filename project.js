@@ -98,7 +98,8 @@ function compare(verb1, verb2){
 function sortByPreposition(phrasalverbs){
     // Cleans the screen
     reset();
-
+    document.getElementById('verbInput').value = '';
+    
     // Get selected option of filter choosen by the user
     filter = document.getElementById("sortByPreposition");
     
@@ -145,6 +146,7 @@ function findVerb() {
     
     let count = 0;
 
+    // Find a verb that matches what was typed
     phrasalVerbsList.forEach((currentPhrasalVerb) => {
         verbUpperCase = currentPhrasalVerb.phrasalVerb.toUpperCase();
         let position = verbUpperCase.indexOf(inputVerb);
@@ -162,6 +164,7 @@ function findVerb() {
     displayPhrasalVerbs(resultVerbsOrdered);
 };
 
+// At first, show all the list of verbs
 getPhrasalVerbs();
 
 // Event listener over the combo-box with the filter options

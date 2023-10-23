@@ -6,7 +6,7 @@
     --paragraph-font: Helvetica, sans-serif;
 }
 
-#home_content, #contactme_content, #resources_content{
+#home_content{
     max-width: 1600px;
     margin: 0 auto;
   }
@@ -69,9 +69,6 @@ p{
 }
 
 #verbInput{
-  background-image: ('/images/searchIcon.png'); 
-  background-position: 10px 12px; 
-  background-repeat: no-repeat; 
   display: block;
   width: 600px;
   margin: auto;
@@ -91,24 +88,16 @@ p{
   padding-left: 200px;
   grid-gap: 20px;
 }
-
   
 @media screen and (max-width: 900px) {
-      .home_content, .resources_content, .tips_content{
+      .home_content{
           display: block;
           height: auto;
       }
-      .sidenav, .sidewho, .main_part, footer {
+      .sidenav, .main_phrasalverbs {
           flex-direction: column;
       }
-      .sidenav a, .sidewho p {
-          display: block;
-          padding: 15px;
-      }
       
-      footer {
-          margin-top: 25px;
-      }
   }
   
   
