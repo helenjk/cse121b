@@ -156,6 +156,54 @@
     "exampleSentence": "I got up early today to study for my exam."
   },
   {
+    "phrasalVerb": "Look for",
+    "meaningEng": "Try to find",
+    "meaningPor": "Procurar por algo ou alguém",
+    "exampleSentence": "I'm looking for a red dress for the wedding."
+  },
+  {
+    "phrasalVerb": "Pass out",
+    "meaningEng": "Faint",
+    "meaningPor": "Desmaiar, desfalecer",
+    "exampleSentence": "It was so hot in the church that an elderly lady passed out."
+  },
+  {
+    "phrasalVerb": "Pay back",
+    "meaningEng": "Return owned money to someone",
+    "meaningPor": "Devolver dinheiro que foi tomado por empréstimo",
+    "exampleSentence": "Thanks for buying my ticket. I'll pay you back on next Friday."
+  },
+  {
+    "phrasalVerb": "Shop around",
+    "meaningEng": "Compare prices",
+    "meaningPor": "Checar os preços em diversas lojas",
+    "exampleSentence": "I want to shop around a little before to decide on these boots."
+  },
+  {
+    "phrasalVerb": "Cheer up",
+    "meaningEng": "Make some happy",
+    "meaningPor": "Fazer alguém feliz",
+    "exampleSentence": "I brought you some flowers to cheer you up."
+  },
+  {
+    "phrasalVerb": "Cheer up",
+    "meaningEng": "Become happier",
+    "meaningPor": "Ficar mais feliz",
+    "exampleSentence": "She cheered up when she heard the good news."
+  },
+  {
+    "phrasalVerb": "Break in",
+    "meaningEng": "Force entry to a building",
+    "meaningPor": "Forçar a entrada em algum lugar",
+    "exampleSentence": "Someone broke in last night and stole our cellphones."
+  },
+  {
+    "phrasalVerb": "Wake up",
+    "meaningEng": "Stop sleeping",
+    "meaningPor": "Acordar",
+    "exampleSentence": "I have to wake up early for work on Monday."
+  },
+  {
     "phrasalVerb": "Look forward to",
     "meaningEng": "Be excited about the future",
     "meaningPor": "Aguardar com ansiedade e expectativa",
